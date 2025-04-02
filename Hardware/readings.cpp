@@ -9,9 +9,9 @@
 
 // BLE Parameters
 #define DEVICE_NAME "GlucoseMonitor"
-#define SERVICE_UUID "12345678-1234-5678-1234-56789abcdef0"
-#define CHARACTERISTIC_UUID "abcdef01-1234-5678-1234-56789abcdef1"
-#define COMMAND_CHARACTERISTIC_UUID "abcdef02-1234-5678-1234-56789abcdef2"
+#define SERVICE_UUID "aaa" // UUID for the service (not shared for security reasons)
+#define CHARACTERISTIC_UUID "bbb" // UUID for the characteristic (not shared for security reasons)
+#define COMMAND_CHARACTERISTIC_UUID "ccc" // UUID for command characteristic (not shared for security reasons)
 
 // BLE Server and Characteristics
 BLEServer* pServer = nullptr;
